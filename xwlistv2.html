@@ -26,31 +26,49 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" rel="stylesheet">
 
-    
+
     <style>
-        .light-content .showcase-portfolio .slide-caption .slide-title{
-            margin-bottom: 60px;
-    margin-left: 20px;
-    font-family: Six Caps;
-    font-size: 40px;
-    line-height: 1.5 !important;
-    letter-spacing: 1px;
-    
-        }
-
-        .showcase-portfolio .slide-caption{
+        .showcase-portfolio .slide-caption {
             display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            flex-direction: column;
+            height: 130%;
+        }
+    .slide-caption .slide-brand {
+		font-size: 12px;
+		font-weight: 500;
+		overflow:hidden;
+		margin-bottom: 5px;
+		color: #fff;
+		opacity: 0.75;
+		margin-top: 5px;
+		letter-spacing: 1px;
+		max-width: 200px;
+		text-transform: uppercase;
 
-        }
-        .slide-subtitle{
-            margin-bottom: 0 !important;
-    margin-left: 20px;
-    color: #fff !important;
-        }
+	}
+    .slide-caption .slide-subtitle {
+		font-size: 12px;
+		line-height: 1.5;
+		font-weight: 300 !important;
+		overflow:hidden;
+		text-transform: capitalize;
+		margin-bottom: 0px;
+		color: #ebcbab;
+		opacity: 1;
+		margin-top: 5px;
+		letter-spacing: 1px;
+        text-align: center;
+        max-width: 300px;
+
+	}
+	
+    .showcase-portfolio .clapat-item{
+        margin-bottom: 80px !important;
+    }
     </style>
+
 
 </head>
 
@@ -64,10 +82,10 @@
         <div class="cd-index cd-main-content">
 
             <!-- Page Content -->
-            <div id="clapat-page-content" class="light-content" data-bgcolor="#0c0c0c">
+            <div id="clapat-page-content" class="light-content" data-bgcolor="#000000">
 
                 <!-- Header -->
-                <header class="fullscreen-menu invert-header" data-menucolor="#0c0c0c">
+                <header class="fullscreen-menu invert-header" data-menucolor="#000000">
                     <div id="header-container">
 
 
@@ -93,27 +111,29 @@
                                     <div class="inner">
                                         <ul data-breakpoint="10025" class="flexnav">
                                             <li class="link menu-timeline"><a class="ajax-link"
-                                                data-type="page-transition" href="xwlist.html">
-                                                <div class="before-span"><span data-hover="Watches v1">Watches v1</span>
-                                                </div>
-                                            </a></li>
-                                        <li class="link menu-timeline"><a class="ajax-link"
-                                                data-type="page-transition" href="xwlisvt2.html">
-                                                <div class="before-span"><span data-hover="Watches v2">Watches v2</span>
-                                                </div>
-                                            </a></li>
-                                        <li class="link menu-timeline"><a class="ajax-link"
-                                                data-type="page-transition" href="">
-                                                <div class="before-span"><span data-hover="Super Cars">Super
-                                                        Cars</span>
-                                                </div>
-                                            </a></li>
-                                        <li class="link menu-timeline"><a class="ajax-link"
-                                                data-type="page-transition" href="">
-                                                <div class="before-span"><span data-hover="Profile">Profile</span>
-                                                </div>
-                                            </a>
-                                        </li>
+                                                    data-type="page-transition" href="xwlist.html">
+                                                    <div class="before-span"><span data-hover="Watches v1">Watches
+                                                            v1</span>
+                                                    </div>
+                                                </a></li>
+                                            <li class="link menu-timeline"><a class="ajax-link"
+                                                    data-type="page-transition" href="xwlisvt2.html">
+                                                    <div class="before-span"><span data-hover="Watches v2">Watches
+                                                            v2</span>
+                                                    </div>
+                                                </a></li>
+                                            <li class="link menu-timeline"><a class="ajax-link"
+                                                    data-type="page-transition" href="">
+                                                    <div class="before-span"><span data-hover="Super Cars">Super
+                                                            Cars</span>
+                                                    </div>
+                                                </a></li>
+                                            <li class="link menu-timeline"><a class="ajax-link"
+                                                    data-type="page-transition" href="">
+                                                    <div class="before-span"><span data-hover="Profile">Profile</span>
+                                                    </div>
+                                                </a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -152,8 +172,8 @@
                     <!-- Main -->
                     <div id="main">
 
-                         <!-- Hero Section -->
-                         <div id="hero">
+                        <!-- Hero Section -->
+                        <div id="hero">
                             <div id="hero-styles">
                                 <div id="hero-caption"
                                     class="content-full-width parallax-scroll-caption text-align-center height-title">
@@ -266,11 +286,15 @@
                                                             class="grid__item-img grid__item-img--large" alt="">
                                                     </div>
                                                     <div class="slide-caption trigger-item-link-secondary">
-                                                        <p class="slide-subtitle">
-                                                            Jacob & Co Baguette White Diamonds
+                                                       
+                                                        <p class="slide-brand">
+                                                            Jacob & Co
                                                         </p>
                                                         <div class="slide-title"><span>ASTRONOMIA
                                                                 TOURBILLON BAGUETTE</span></div>
+                                                        <p class="slide-subtitle">
+                                                            Rose Gold, Baguette White Diamonds
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -292,9 +316,14 @@
                                                     </div>
                                                     <div class="slide-caption trigger-item-link-secondary">
                                                         <p class="slide-subtitle">
-                                                            Jacob & Co BUGGATI CHIRON
-                                                         </p>
-                                                         <div class="slide-title"><span>TOURBILLON BAGUETTE</span></div>
+                                                            <p class="slide-brand">
+                                                                Jacob & Co
+                                                            </p>
+                                                            <div class="slide-title"><span>TOURBILLON
+                                                                    BAGUETTE</span></div>
+                                                                    <p class="slide-subtitle">
+                                                                        Diamond with Glass Black & Dark Orange Degrade Sapphire
+                                                                    </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -315,15 +344,19 @@
                                                             class="grid__item-img grid__item-img--large" alt="">
                                                     </div>
                                                     <div class="slide-caption trigger-item-link-secondary">
-                                                        <p class="slide-subtitle">
-                                                            Jacob & Black CRYSTAL BRACELET
-                                                         </p>
-                                                         <div class="slide-title "><span>EPIC X CHRONO TOURBILLON BAGUETTE</span></div>
+                                                        <p class="slide-brand">
+                                                            Jacob & Co
+                                                        </p>
+                                                        <div class="slide-title"><span>EPIC X
+                                                                CHRONO TOURBILLON BAGUETTE</span></div>
+                                                                <p class="slide-subtitle">
+                                                                    Jacob & Black Crystal Bracelet with Silk Thread
+                                                                </p>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                           
+
 
                                             <div class="clapat-item design-filter">
                                                 <div class="slide-inner align-top trigger-item" data-centerLine="OPEN">
@@ -341,14 +374,49 @@
                                                             class="grid__item-img grid__item-img--large" alt="">
                                                     </div>
                                                     <div class="slide-caption trigger-item-link-secondary">
-                                                        <p class="slide-subtitle">
-                                                            Audemars Piguet Code 11.59
-                                                         </p>
-                                                         <div class="slide-title">
+                                                        <p class="slide-brand">
+                                                            Audemars Piguet
+                                                        </p>
+                                                        <div class="slide-title">
                                                             <span>
-                                                                 Selfwinding Chronograph
+                                                               11.59 Selfwinding Chronograph
                                                             </span>
                                                         </div>
+                                                        <p class="slide-subtitle">
+                                                            18k white gold case with smoked blue lacquered dia
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="clapat-item design-filter">
+                                                <div class="slide-inner align-top trigger-item" data-centerLine="OPEN">
+                                                    <div class="img-mask">
+                                                        <div class="curtains" data-curtain-color="#0c0c0c">
+                                                            <div class="curtain-row"></div>
+                                                        </div>
+                                                        <a class="slide-link" data-type="page-transition"
+                                                            href="project05.html"></a>
+                                                        <div class="section-image trigger-item-link">
+                                                            <img src="images/watches/aw5.png"
+                                                                class="item-image grid__item-img" alt="">
+                                                        </div>
+                                                        <img src="images/watches/aw5.png"
+                                                            class="grid__item-img grid__item-img--large" alt="">
+                                                    </div>
+                                                    <div class="slide-caption trigger-item-link-secondary">
+                                                        <p class="slide-brand">
+                                                            Audemars Piguet
+                                                        </p>
+                                                        <div class="slide-title">
+                                                            <span>
+                                                                Royal Oak
+                                                                Selfwinding
+                                                            </span>
+                                                        </div>
+                                                        <p class="slide-subtitle">
+                                                            black ceramic and contrasted with subtle pink gold
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -366,7 +434,7 @@
                             <!--/Main Page Content -->
 
 
-                         
+
 
 
                         </div>
@@ -374,6 +442,20 @@
 
                     </div>
                     <!--/Main -->
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
 
                     <!-- Footer -->
                     <footer class="hidden">

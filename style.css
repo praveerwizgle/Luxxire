@@ -660,9 +660,14 @@ h6 {
 }
 
 .primary-font-title {
-	font-family: 'Six Caps', sans-serif;
-	text-transform: lowercase;
-	font-weight: 500;
+	font-family: "poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 1.5;
+	letter-spacing: 10px;
+
 }
 
 .big-title {
@@ -1585,7 +1590,7 @@ i.arrow-icon-up::after {
 	transition: opacity 0.2s ease-in-out 0s;
 }
 
-@keyframes rotating {
+/* @keyframes rotating {
 	0% {
 		-webkit-transform: translate(-14px, -14px)rotate(0deg);
 		transform: translate(-14px, -14px)) rotate(0deg);
@@ -1600,7 +1605,7 @@ i.arrow-icon-up::after {
 		-webkit-transform: translate(-14px, -14px) rotate(360deg);
 		transform: translate(-14px, -14px) rotate(360deg);
 	}
-}
+} */
 
 .show-loader a,
 .show-loader nav,
@@ -1829,27 +1834,28 @@ header {
 	width: 100%;
 	z-index: 20;
 	opacity: 0;
-	/* background-color: #00000044;
-	backdrop-filter: blur(1px); */
+	background-color: #00000044;
+	backdrop-filter: blur(4px);
 }
 
 #header-container p {
 	font-family: 'poppins', sans-serif;
-	font-size: 10px;
-	text-transform: uppercase;
+	font-size: 14px;
+	text-transform: capitalize;
 	margin-bottom: 0 !important;
 	color: #fff;
-	line-height: 12px;
+	line-height: 1.5;
 	letter-spacing: 0px;
-	opacity: 0.8;
+	opacity: 1;
+	font-weight: lighter;
 }
 
 #header-container h6 {
-	font-family: 'Six Caps', sans-serif;
-	text-transform: uppercase;
-	font-weight: 800;
-	font-size: 28px;
-	letter-spacing: 2px;
+	/* font-family: 'Six Caps', sans-serif; */
+	font-family: "poppins", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
 
 }
 
@@ -2314,7 +2320,9 @@ nav.open {
 	}
 
 	.fullscreen-menu .flexnav>li>a {
-		font-family: 'Six Caps', sans-serif;
+		/* font-family: 'Six Caps', sans-serif; */
+		font-family: 'Times';
+
 		font-weight: 500;
 		font-size: calc(1rem + 8vw);
 		line-height: calc(1rem + 7.5vw);
@@ -3574,7 +3582,9 @@ nav.open {
 	.flexnav>li>a {
 		font-size: calc(1rem + 12vw);
 		line-height: calc(1rem + 11.5vw);
-		font-family: 'Six Caps', sans-serif;
+		/* font-family: 'Six Caps', sans-serif; */
+		font-family: 'Times';
+
 		text-transform: lowercase;
 	}
 

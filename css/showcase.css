@@ -524,13 +524,32 @@
 	}
 
 	.overlapping-image .slide-caption .slide-subtitle {
-		font-size: 14px;
+		font-size: 12px;
+		line-height: 1.5;
+		font-weight: 300 !important;
+		overflow:hidden;
+		text-transform: capitalize;
+		margin-bottom: 0px;
+		color: #ebcbab;
+		opacity: 1;
+		margin-top: 10px;
+		letter-spacing: 1px;
+		max-width: 200px;
+
+	}
+	
+	.overlapping-image .slide-caption .slide-brand {
+		font-size: 12px;
 		font-weight: 500;
 		overflow:hidden;
-		text-transform: uppercase;
 		margin-bottom: 0px;
 		color: #fff;
-		opacity: 0.8;
+		opacity: 0.75;
+		margin-top: 10px;
+		letter-spacing: 1px;
+		max-width: 200px;
+		text-transform: uppercase;
+
 	}
 	
 	
@@ -1461,6 +1480,7 @@
 	.overlapping-image .slide-caption .slide-title {
 		font-size: calc(1rem + 12vw);
 		line-height: calc(1rem + 11.5vw);
+		
 	}
 	
 	.overlapping-image .slide-caption .slide-date {
@@ -1716,11 +1736,16 @@
 	
 	.overlapping-image .slide-caption {
   		padding: 20px;
+		padding-bottom: 40px;
 	}
 	
 	.overlapping-image .slide-caption .slide-title {
-		font-size: calc(1rem + 14vw);
-		line-height: calc(1rem + 13.5vw);
+		/* font-size: calc(1rem + 14vw);
+		line-height: calc(1rem + 13.5vw); */
+		font-size: 30px;
+		line-height: 1.5;
+		letter-spacing: 0;
+		font-weight: 400;
 	}
 	
 	.overlapping-image .slide-caption .slide-date {
